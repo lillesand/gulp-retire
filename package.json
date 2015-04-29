@@ -1,0 +1,32 @@
+{
+  "name": "gulp-retire",
+  "version": "0.0.1",
+  "description": "Gulp plugin for retire. What you require you must also retire!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lillesand/gulp-retire.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "retirejs",
+    "security"
+  ],
+  "author": "Jøran Lillesand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillesand/gulp-retire/issues"
+  },
+  "homepage": "https://github.com/lillesand/gulp-retire",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "vinyl": "^0.4.6"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  }
+}
